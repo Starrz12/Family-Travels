@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-wrapper {
+   background-color: #0249ad;
+    color:#fff;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    box-shadow: inset 0px -25px 79px -8px rgba(0,0,0,0.58);
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.family {
+    width: 100px;
+    height:auto;
+    padding-right: 15px;
+}
+
+.family img {
+    width: 100%;
+    Height: auto;
+    border-radius: 50%; 
+}
+
+.header-styles {
+    font-family: 'ubuntu condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 42px;
+    width: 500px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo a {
+    display: inline-block;
+    width: 450px;
+}
+
+.logo a img {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid #012250;
+    border-radius: 25%;
+}
+
+.link-wrapper {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    width: 100px;
+    text-align: center;
+}
+
+.link-wrapper a {
+    font-family: 'ubuntu condensed', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper a:hover {
+ color: #bcca99;
+ letter-spacing: 1px;
+}
+
+.right-column {
+display: flex;
+align-items: center;
+}
+
+.icon {
+font-size: 2em;
+}
+
+.icon-mr {
+    margin-right: 15px;
+}
+.icon-ml {
+    margin-left: 15px;
+}
+.homepage {
+background-image: url(assets/World1.jpg);
+padding: 100px;
+height: 780px;background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+
+.top-heading {
+color: #cbcbcb;
+background-color: #264b8f;
+width: 290px;
+border-radius: 2px;
+padding: 1px 20px;
+border: 5px solid #012250;
+margin: 19px 0px 19px 5px;
+}
+.top-heading h1{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px;
+   justify-content: space-between;
+   width:100%;
+   align-items: center;
+}
+.bottom-heading {
+    flex: 0 32%;
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #446bb4;
+    color: #442c06;
+    padding: 1px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 5px solid #012250  
+} 
+.bottom-heading-park {
+    flex: 0 32%;
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #446bb4;
+    color: #064422;
+    padding: 1px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 5px solid #012250  
+} 
+.bottom-heading-fun {
+    flex: 0 32%;
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #446bb4;
+    color: #380644;
+    padding: 1px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 5px solid #012250  
+} 
+.bottom-heading-edu {
+    flex: 0 32%;
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #446bb4;
+    color: #442c06;
+    padding: 1px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 5px solid #012250  
+} 
+.bottom-heading-sport {
+    flex: 0 32%;
+    height: 40px;
+    margin-bottom: 2%;
+    background-color: #446bb4;
+    color: #445001;
+    padding: 1px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 5px solid #012250  
+} 
+.bottom-heading h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.bottom-heading-fun h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.bottom-heading-park h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.bottom-heading-edu h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.bottom-heading-sport h3 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.features-section {
+height: 280px;
+background-image: url(assets/kayak-multiple.png);
+background-color: #022d69;
+border-top: 10px solid #fff;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Ubuntu Condensed', sans-serif;
+box-shadow: inset 0px -25px 79px -8px rgba(0,0,0,0.58);
+padding-bottom: 20px;
+}
+.columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.column:hover {
+border-bottom: 5px solid #fff;
+}
+.column :nth-child(1) {
+font-size: 3em;
+}
+.column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+}
+.column :nth-child(2):hover {
+    color: #bcca99;
+ letter-spacing: 1px;
+}
+.column :nth-child(3) {
+    letter-spacing: 2px;
+}
+.footer {
+    max-width: 100%;
+    height: auto;
+}
+.footer img {
+    max-width: 100%;
+    height: auto;
+}
